@@ -18,10 +18,18 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 15px;
-	padding-left: 18.5%;
-	padding-right: 18.5%;
+	padding-top: 1vh;
+	padding-left: 50vh;
+	padding-right: 50vh;
 }
+
+@media screen and (max-width: 1200px) {
+	nav {
+	  padding-left: 30px;
+	  padding-right: 30px;
+	}
+}
+
 .logo{
 	color: #1eb5cf;
 	font-size: 28px;
