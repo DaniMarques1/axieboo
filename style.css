@@ -71,4 +71,24 @@ button:hover{
 		font-size: 18px;
 	
 	}
-	but
+	button{
+		border: none;
+		background:#1eb5cf;
+		padding: 6px 15px;
+		border-radius: 10px;
+		color: rgba(255, 255, 255, 0.884);
+		font-weight: bold;
+		font-size: 12px;
+		transition: .4s;
+	}
+	nav {
+		
+		padding-left: 1px;
+		padding-right: 1px;
+	  }
+	nav ul li{
+		font-size: 12px;
+		display: inline-block;
+		padding: 10px 2px;
+	}	
+}
